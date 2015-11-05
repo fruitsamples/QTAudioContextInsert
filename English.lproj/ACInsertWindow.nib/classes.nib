@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = ACInsert; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                iaAUBypassButtonPressed = id; 
+                iaAUPopUpButtonPressed = id; 
+                iaInsertInputACLPopUpButtonPressed = id; 
+                iaInsertOutputACLPopUpButtonPressed = id; 
+            }; 
+            CLASS = ACInsertWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                uiAUBypassButton = NSButton; 
+                uiAUPopUpButton = NSPopUpButton; 
+                uiAUViewContainer = NSBox; 
+                uiDeviceFormatTextField = NSTextField; 
+                uiInsertInputACLPopUpButton = NSPopUpButton; 
+                uiInsertOutputACLPopUpButton = NSPopUpButton; 
+                uiMovieSummaryMixTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                iaAUBypassButtonPressed = id; 
+                iaAUPopUpButtonPressed = id; 
+                iaRegisterACInsertButtonPressed = id; 
+            }; 
+            CLASS = HostingWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                uiAUBypassButton = NSButton; 
+                uiAUPopUpButton = NSPopUpButton; 
+                uiAUTypeMatrix = NSMatrix; 
+                uiAUViewContainer = NSBox; 
+                uiCurrentMovieNameTextField = NSTextField; 
+                uiRegisterInsertButton = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
